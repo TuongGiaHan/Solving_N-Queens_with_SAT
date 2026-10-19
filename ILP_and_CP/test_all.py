@@ -10,7 +10,7 @@ from ILP_and_CP.cplex import solve_cplex_cp, check as check_cplex
 SOLVERS = ["Gurobi MIP", "CPLEX MIP", "CPLEX CP", "CP-SAT"]
 N_VALUES = [4, 8, 12, 16, 25, 27, 36, 64, 81, 100, 135, 216, 343, 512, 729, 1000, 1024, 1331]
 TIME_LIMIT = 60.0
-OUTPUT_FILE = "exact_solver.csv"
+OUTPUT_FILE = "benchmark_ilp_cp.csv"
 
 
 def run_solver(solver_name, n, time_limit):
